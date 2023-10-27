@@ -1,0 +1,30 @@
+from datetime import *
+
+
+def getDate():
+
+    today = datetime.today()
+
+while True:
+    print("1. Whats your name \t2. Whats your favorite pastime \t3. Current Date \t4. Exit")
+    i=input()
+
+    if i=="1":
+        print("Hello! Whats your full name?")
+        if input ():
+            print("Nice to meet you!")
+
+    elif i=="2":
+        print("Whats your favorite movie, game and book?")
+        if input ():
+            print("That is very cool!")
+
+    elif i=="3":
+        today = datetime.today()
+        print("Datetime is", datetime.now())
+    else:
+        print(" ")
+
+        if i=="4":
+            print("Thank You")
+            break
